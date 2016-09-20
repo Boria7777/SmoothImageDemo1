@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.smoothimagedemo.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <GridView
+        android:id="@+id/multi_photo_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="245dp"
+        android:gravity="center"
+        android:horizontalSpacing="3dp"
+        android:listSelector="#00000000"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="3dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_launcher"
+        android:layout_gravity="left|top" />
+
+</FrameLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxhdpi"
+    format="7"
+    timestamp="518545689741651"
+    token="2997583206350524403"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="190" />
+    <task
+        name="instant-run-dex"
+        duration="382" />
+    <task
+        name="instant-run-transform"
+        duration="15" />
+    <task
+        name="verifier"
+        duration="4" />
+
+    <artifact
+        location="C:\Users\Boria\Desktop\SmoothImageDemo1\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="512545837505452" >
+        <artifact
+            location="C:\Users\Boria\Desktop\SmoothImageDemo1\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="517123855906253"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Boria\Desktop\SmoothImageDemo1\app\build\intermediates\builds\debug\517123855906253\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="517167114543434" >
+        <artifact
+            location="C:\Users\Boria\Desktop\SmoothImageDemo1\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="518505255526102" >
+        <artifact
+            location="C:\Users\Boria\Desktop\SmoothImageDemo1\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="518545689741651"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Boria\Desktop\SmoothImageDemo1\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>
